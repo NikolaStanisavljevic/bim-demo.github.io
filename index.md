@@ -1,4 +1,4 @@
-## Investigation IFC BIM toolkit
+## IFC BIM toolkit
 
 ### Introduction
 
@@ -7,23 +7,27 @@ The goal is to create a fully functioning 3D editor embedded in a web page, with
 All actions are going to be conducted by client (end user) and user experience and wide usage are one of primary focuses.
 The first form of usage is going to be oriented into building and modeling furniture in online shops, and later plans are to grow into an in-house project that is eventually going to be sold as a service, and possibly spread across more use cases.
 
-## Know requirements so far
+### Know requirements so far
 
 There are a couple of things we want to support from the get-go:
-- IFC4 format engine (parser and converter)
-- Multiplatform
-- Display objects efficiently in browser
+    - IFC4 format engine (parser and converter)
+    - Multiplatform
+    - Display objects efficiently in browser
 
 Also a couple of examples of already built online configurators (tools) used which could be used as starting reference:
-1. https://tylko.com/
-2. https://ch.mycs.com/
-3. https://shop.ecoleo.ch/Configure
+    - https://tylko.com/
+    - https://ch.mycs.com/
+    - https://shop.ecoleo.ch/Configure
 
 
+Details about core requirements and format we have to convert from and in so far are:
+**IFC 4** is the current version of the buildingSMART data model (The openBIM core specification) is certain for now, and we know we are having to going to use **web technologies** (HTML, CSS, JavaScript) to accommodate client needs and some sort of 3D lib (again in JS) for editor itself.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Options
+
+More options could be offered and took into consideration, but after we get more details about core requerements and format we have to convert from and in.
+So far certain is that IFC4 format is going to be used for 
 
 ```markdown
 Syntax highlighted code block
