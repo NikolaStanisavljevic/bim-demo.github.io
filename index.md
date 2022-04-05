@@ -1,8 +1,25 @@
-## Welcome to GitHub Pages
+## Investigation IFC BIM toolkit
 
-You can use the [editor on GitHub](https://github.com/NikolaStanisavljevic/bim-demo.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Introduction
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Investigation is conducted to gather some basic details and information around creation and usage of BIM servers with web technologies.
+The goal is to create a fully functioning 3D editor embedded in a web page, with abilities to perform object manipulation, editing and conversion.
+All actions are going to be conducted by client (end user) and user experience and wide usage are one of primary focuses.
+The first form of usage is going to be oriented into building and modeling furniture in online shops, and later plans are to grow into an in-house project that is eventually going to be sold as a service, and possibly spread across more use cases.
+
+## Know requirements so far
+
+There are a couple of things we want to support from the get-go:
+- IFC4 format engine (parser and converter)
+- Multiplatform
+- Display objects efficiently in browser
+
+Also a couple of examples of already built online configurators (tools) used which could be used as starting reference:
+1. https://tylko.com/
+2. https://ch.mycs.com/
+3. https://shop.ecoleo.ch/Configure
+
+
 
 ### Markdown
 
