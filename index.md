@@ -20,11 +20,9 @@ Display objects efficiently in browser
 
 #### Also a couple of examples of already built online configurators (tools) used which could be used as starting reference:  
 
-https://tylko.com/  
-
-https://ch.mycs.com/  
-
-https://shop.ecoleo.ch/Configure  
+ &nbsp; * https://tylko.com/  
+ &nbsp; * https://ch.mycs.com/  
+ &nbsp; * https://shop.ecoleo.ch/Configure
 
 
 
@@ -59,12 +57,12 @@ IFC allows the exchange of information between applications of different vendors
 
 #### Main focus of learning:
     
- 1. IFC schema basics.  
- 2. IFC generic entities.  
- 3. IFC spatial structure and coordinate systems.  
- 4. IFC building elements: semantic objects.
- 5. IFC geometry: placements and representations.  
- 6. IFC properties: native, psets, qsets and others.
+ &nbsp; 1. IFC schema basics.  
+ &nbsp; 2. IFC generic entities.  
+ &nbsp; 3. IFC spatial structure and coordinate systems.  
+ &nbsp; 4. IFC building elements: semantic objects.
+ &nbsp; 5. IFC geometry: placements and representations.  
+ &nbsp; 6. IFC properties: native, psets, qsets and others.
 
 ### IFC.JS
 
