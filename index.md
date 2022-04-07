@@ -10,49 +10,46 @@ The first form of usage is going to be oriented into building and modeling furni
 ### Know requirements so far
 
 There are a couple of things we want to support from the get-go:
-    - IFC4 format engine (parser and converter)
-    - Multiplatform
-    - Display objects efficiently in browser
+- IFC4 format engine (parser and converter)
+- Multiplatform
+- Display objects efficiently in browser
 
 Also a couple of examples of already built online configurators (tools) used which could be used as starting reference:
-    - https://tylko.com/
-    - https://ch.mycs.com/
-    - https://shop.ecoleo.ch/Configure
+- https://tylko.com/
+- https://ch.mycs.com/
+- https://shop.ecoleo.ch/Configure
 
 
-Details about core requirements and format we have to convert from and in so far are:
+Details about core requirements and formats we have to convert from and in so far are:
 **IFC 4** is the current version of the buildingSMART data model (The openBIM core specification) is certain for now, and we know we are having to going to use **web technologies** (HTML, CSS, JavaScript) to accommodate client needs and some sort of 3D lib (again in JS) for editor itself.
 
 
 ### Options
 
 More options could be offered and took into consideration, but after we get more details about core requerements and format we have to convert from and in.
-So far certain is that IFC4 format is going to be used for 
+So far there is no certain format to be used but IFC 4 is candidate (___not anymore___)
+**TO BE POPULATED**
 
-```markdown
-Syntax highlighted code block
+### IFC4
 
-# Header 1
-## Header 2
-### Header 3
+IFC allows the exchange of information between applications of different vendors, as well as **accessing** the information without depending on a single application / licensing policy. Version 4 has short history of usage in industry.
 
-- Bulleted
-- List
+Example of format:
 
-1. Numbered
-2. List
+`
+#6699= IFCCARTESIANPOINT((0.,-1.7053025E-13));
+#6701= IFCAXIS2PLACEMENT2D(#6699,#23);
+#6703= IFCCARTESIANPOINT((892.,-253.399999,150.));
+#6705= IFCAXIS2PLACEMENT3D(#6703,#15,#19);
+#6706= IFCEXTRUDEDAREASOLID(#6702,#6705,#19,506.8);
+#6707= IFCCOLOURRGB($,0.50196,0.501913,0.501960);
+`
 
-**Bold** and _Italic_ and `Code` text
+Main focus of learning:
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NikolaStanisavljevic/bim-demo.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- IFC schema basics.
+- IFC generic entities.
+- IFC spatial structure and coordinate systems.
+- IFC building elements: semantic objects.
+- IFC geometry: placements and representations.
+- IFC properties: native, psets, qsets and others.
