@@ -11,18 +11,16 @@ The first form of usage is going to be oriented into building and modeling furni
 
 #### There are a couple of things we want to support from the get-go:  
 
-IFC4 format engine (parser and converter)  
-
-Multiplatform  
-
-Display objects efficiently in browser  
+&nbsp; IFC4 format engine (parser and converter)  
+&nbsp; Multiplatform  
+&nbsp; Display objects efficiently in browser  
 
 
 #### Also a couple of examples of already built online configurators (tools) used which could be used as starting reference:  
 
- &nbsp; * https://tylko.com/  
- &nbsp; * https://ch.mycs.com/  
- &nbsp; * https://shop.ecoleo.ch/Configure
+ &nbsp; * [https://tylko.com/](https://tylko.com/)  
+ &nbsp; * [https://ch.mycs.com/)](https://ch.mycs.com/)  
+ &nbsp; * [https://shop.ecoleo.ch/Configure](https://shop.ecoleo.ch/Configure)
 
 
 
@@ -60,7 +58,7 @@ IFC allows the exchange of information between applications of different vendors
  &nbsp; 1. IFC schema basics.  
  &nbsp; 2. IFC generic entities.  
  &nbsp; 3. IFC spatial structure and coordinate systems.  
- &nbsp; 4. IFC building elements: semantic objects.
+ &nbsp; 4. IFC building elements: semantic objects.  
  &nbsp; 5. IFC geometry: placements and representations.  
  &nbsp; 6. IFC properties: native, psets, qsets and others.
 
@@ -87,8 +85,6 @@ You can use IFC.js to create open BIM applications for any platform:
 
 ### Sources
 
-    https://app.bimsupporters.com/courses/ifc/lessons/history-and-versions-of-ifc/  
-
-    https://bimcorner.com/what-can-ifc4-bring-to-the-industry/  
-
-    https://ifcjs.github.io/info/
+ &nbsp; * [https://app.bimsupporters.com/courses/ifc/lessons/history-and-versions-of-ifc/](https://app.bimsupporters.com/courses/ifc/lessons/history-and-versions-of-ifc/)  
+ &nbsp; * [https://bimcorner.com/what-can-ifc4-bring-to-the-industry/](https://bimcorner.com/what-can-ifc4-bring-to-the-industry/)   
+ &nbsp; * [https://ifcjs.github.io/info/](https://ifcjs.github.io/info/)
