@@ -33,7 +33,8 @@ Details about core requirements and formats we have to convert from and in so fa
 ### Options
 
 More options could be offered and took into consideration, but after we get more details about core requerements and format we have to convert from and in.
-So far there is no certain format to be used but IFC 4 is candidate (___not anymore___)
+So far there is no certain format to be used but IFC 4 is candidate (___not anymore___)  
+
 **TO BE POPULATED**
 
 ### IFC4
@@ -59,3 +60,30 @@ Main focus of learning:
 - IFC building elements: semantic objects.
 - IFC geometry: placements and representations.
 - IFC properties: native, psets, qsets and others.
+
+### IFC.JS
+
+IFC.js has two focuses:
+
+___Geometry___  
+
+IFC.js can generate 3D scenes because it is compatible with 3D libraries such as Three.js or Babylon.js. This means that you can create 3D BIM tools right away.  
+
+___Data___  
+
+High-level access to all the properties associated with that geometry. This means easy access to data on the building components, their materials, thermal characteristics, structural strength, etc.  
+
+Main focus on ___Multiplatform___
+
+You can use IFC.js to create open BIM applications for any platform:  
+
+    Frontend web applications  
+    Use IFC.js on the server via Node.js  
+    Native desktop applications that run on Windows, iOS and Linux. This is possible thanks to technologies like Electron.
+    IFC.js also supports React Native, which maps WebGL code to native OpenGL.  
+
+### Sources
+
+* https://app.bimsupporters.com/courses/ifc/lessons/history-and-versions-of-ifc/
+* https://bimcorner.com/what-can-ifc4-bring-to-the-industry/
+* https://ifcjs.github.io/info/
