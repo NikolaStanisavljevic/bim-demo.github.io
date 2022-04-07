@@ -11,17 +11,16 @@ The first form of usage is going to be oriented into building and modeling furni
 
 There are a couple of things we want to support from the get-go:  
 
-- IFC4 format engine (parser and converter)  
-
-- Multiplatform  
-
-- Display objects efficiently in browser  
+* IFC4 format engine (parser and converter)  
+* Multiplatform  
+* Display objects efficiently in browser  
 
 
-Also a couple of examples of already built online configurators (tools) used which could be used as starting reference:
-- https://tylko.com/
-- https://ch.mycs.com/
-- https://shop.ecoleo.ch/Configure
+Also a couple of examples of already built online configurators (tools) used which could be used as starting reference:  
+
+* https://tylko.com/
+* https://ch.mycs.com/
+* https://shop.ecoleo.ch/Configure
 
 
 Details about core requirements and formats we have to convert from and in so far are:  
