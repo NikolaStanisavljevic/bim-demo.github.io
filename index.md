@@ -12,15 +12,20 @@ The first form of usage is going to be oriented into building and modeling furni
 #### There are a couple of things we want to support from the get-go:  
 
 IFC4 format engine (parser and converter)  
+
 Multiplatform  
+
 Display objects efficiently in browser  
 
 
 #### Also a couple of examples of already built online configurators (tools) used which could be used as starting reference:  
 
-https://tylko.com/
-https://ch.mycs.com/
-https://shop.ecoleo.ch/Configure
+https://tylko.com/  
+
+https://ch.mycs.com/  
+
+https://shop.ecoleo.ch/Configure  
+
 
 
 Details about core requirements and formats we have to convert from and in so far are:  
@@ -54,12 +59,12 @@ IFC allows the exchange of information between applications of different vendors
 
 #### Main focus of learning:
     
-IFC schema basics.  
-IFC generic entities.  
-IFC spatial structure and coordinate systems.  
-IFC building elements: semantic objects.
-IFC geometry: placements and representations.  
-IFC properties: native, psets, qsets and others.
+ 1. IFC schema basics.  
+ 2. IFC generic entities.  
+ 3. IFC spatial structure and coordinate systems.  
+ 4. IFC building elements: semantic objects.
+ 5. IFC geometry: placements and representations.  
+ 6. IFC properties: native, psets, qsets and others.
 
 ### IFC.JS
 
